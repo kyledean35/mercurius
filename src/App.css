@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@900&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: black;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(15, 15, 15); 
+}
+  
+h2{
+  font-size: 30px !important;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.942);
+  -webkit-text-stroke-width: 2.1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.908);
+}
+
+h1, h2, h3 {
+  font-family: 'Texturina', serif;
+}
+
+h1{
+  font-size: 60px !important;
+  color: rgba(255, 255, 255, 0.942);
+  -webkit-text-stroke-width: 3.2px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.908);
+}
+
+p{
+    color: white;
+}
+
+.bodyPadding{
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.site-footer {
+  background-image:url(./img/footer.png);
+  background-size: cover;
+  background-position: bottom;
+  padding-bottom: 100px; 
+  padding-top:20px;
+}
+
+h5{
+  color: black;
+  font-size: 35px;
+}
+
+.linkBlack {
+  color:black;
+}
+
+.modal-body {
+background: #40464b;
+}
+
+.modal-header {
+  background: #2d3032;
+  border-bottom: 50px solid #2a2c2e;
+}
+
+.modal-header h1, .modal-header h2,.modal-header h3,.modal-header h4 {
+  color: #ccc;
+}
+
+.modal-footer {
+  background: #2d3032;
+  width: 100%;
+  border-radius: 0;
+  bottom:-70px;
+  right:0px;
+  position:absolute;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.jumbotron {
+  margin: 0px;
+  margin-bottom: 0px;
+  padding:40px !important;
+  background-image: url(./img/background.jpeg);
+  background-color: rgba(140, 126, 44, 0.86);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  }
+
+.navbar {
+  background-color:black;
+}
